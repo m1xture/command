@@ -1,1 +1,1 @@
-# command
+# parcel-project-template
