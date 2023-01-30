@@ -40,37 +40,19 @@
         </p>
       </li>
     </ul>
-    <ul class="gallery">
-      <li class="gallery__item">
-        <img src="#" alt="ice-cream" class="gallery__img" />
-      </li>
-      <li class="gallery__item">
-        <img src="#" alt="ice-cream" class="gallery__img" />
-      </li>
-      <li class="gallery__item">
-        <img src="#" alt="ice-cream" class="gallery__img" />
-      </li>
-      <li class="gallery__item">
-        <img src="#" alt="ice-cream" class="gallery__img" />
-      </li>
-      <li class="gallery__item">
-        <img src="#" alt="ice-cream" class="gallery__img" />
-      </li>
-      <li class="gallery__item">
-        <img src="#" alt="ice-cream" class="gallery__img" />
-      </li>
-      <li class="gallery__item">
-        <img src="#" alt="ice-cream" class="gallery__img" />
-      </li>
-      <li class="gallery__item">
-        <img src="#" alt="ice-cream" class="gallery__img" />
-      </li>
-      <li class="gallery__item">
-        <img src="#" alt="ice-cream" class="gallery__img" />
-      </li>
-    </ul>
+    <picture>
+      <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
+      <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
+      <source media="(min-width: 1200px)" srcset="../images/gallery/gallery-pc@1x.jpg 1x, ../images/gallery/gallery-pc@2x.jpg 2x" />
+      <img src="../images/gallery/gallery-pc@1x.jpg" alt="icecream" class="gallery__img" />
+    </picture>
     <div class="gallery_div">
-    <img src="#" alt="user avatar" class="gallery_avatar"/>
+      <picture>
+        <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
+        <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
+        <source media="(min-width: 1200px)" srcset="../images/comment/avatar-pc@1x.jpg 1x, ../images/comment/avatar-pc@2x.jpg 2x" />
+        <img src="../images/comment/avatar-pc@1x.jpg" alt="" class="gallery__img" />
+      </picture>
     <div class="gallery_commetsdiv">
     <svg width="54px" height="40px" class="gallery_svg">
       <use href="#">
