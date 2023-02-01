@@ -1,0 +1,67 @@
+.products {
+  padding-top: 127px;
+  padding-bottom: 119px;
+}
+.products__title {
+  @extend %title;
+}
+.products__100 {
+  @extend %subtitle;
+}
+.products__list {
+  display: flex;
+  margin-top: 259px;
+  justify-content: center;
+}
+.products__item {
+  margin-right: 30px;
+  border-radius: 24px;
+  padding-top: 163px;
+  padding-right: 44px;
+  padding-bottom: 50px;
+  padding-left: 44px;
+  position: relative;
+  &:first-child {
+    background-color: $background-color;
+  }
+  &:nth-child(2) {
+    background-color: #f0d1a5;
+  }
+  &:last-child {
+    margin-right: 0;
+    background-color: #c2e297;
+  }
+}
+.products__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $secondary-text-color;
+  font-family: 'Titan One';
+  margin-top: 38px;
+  &::after {
+    content: '...';
+    display: block;
+    margin-top: 32px;
+  }
+}
+.products__text {
+    @include special-text($align: center);
+    margin-top: 32px;
+}
+.products__icecream {
+    position: absolute;
+    top: -200px;
+    right: 0.5%;
+}
+.products__btn {
+    background-image: url(../images/products-arrow.svg);
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    margin-top: 62px;
+}
