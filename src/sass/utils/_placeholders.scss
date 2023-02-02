@@ -1,0 +1,36 @@
+%subtitle {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $subtitle-color;
+  display: block;
+  margin-bottom: 15px;
+}
+%title {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 1.137;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $title-color;
+}
+%main-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  color: $text-color;
+}
+%subtext {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.92;
+  letter-spacing: 0.04em;
+  color: $subtext-color;
+}
