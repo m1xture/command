@@ -1,4 +1,4 @@
-4761
+4762
 63C:\Users\Vitalii\Desktop\command\node_modules\@babel\code-frame133198330753826089 1
 76C:\Users\Vitalii\Desktop\command\node_modules\nth-check\lib\esm\compile.d.ts133198330696406971 0
 75C:\Users\Vitalii\Desktop\command\node_modules\terser\node_modules\commander133198330754215037 1
@@ -55,7 +55,7 @@
 77C:\Users\Vitalii\Desktop\command\node_modules\caniuse-lite\data\regions\AL.js133198330708972967 0
 92C:\Users\Vitalii\Desktop\command\node_modules\caniuse-lite\data\features\font-size-adjust.js133198330712779705 0
 74C:\Users\Vitalii\Desktop\command\node_modules\css-select\lib\sort.d.ts.map133198330706453719 0
-37C:\Users\Vitalii\Desktop\command\dist133198364228152663 1
+37C:\Users\Vitalii\Desktop\command\dist133198376243015861 1
 75C:\Users\Vitalii\Desktop\command\node_modules\@parcel\workers\lib\Handle.js133198330710645571 0
 82C:\Users\Vitalii\Desktop\command\node_modules\csso\lib\replace\atrule\keyframes.js133198330709142513 0
 73C:\Users\Vitalii\Desktop\command\node_modules\is-binary-path\package.json133198330698646073 0
@@ -74,7 +74,7 @@
 81C:\Users\Vitalii\Desktop\command\node_modules\caniuse-lite\data\features\sha-2.js133198330715778731 0
 77C:\Users\Vitalii\Desktop\command\node_modules\caniuse-lite\data\regions\MM.js133198330714436749 0
 81C:\Users\Vitalii\Desktop\command\node_modules\terser\lib\compress\tighten-body.js133198330695579186 0
-68C:\Users\Vitalii\Desktop\command\src\sass\components\_tradition.scss133198364514541975 0
+68C:\Users\Vitalii\Desktop\command\src\sass\components\_tradition.scss133198376487979502 0
 67C:\Users\Vitalii\Desktop\command\node_modules\picomatch\lib\scan.js133198330693504729 0
 75C:\Users\Vitalii\Desktop\command\node_modules\@parcel\workers\src\Worker.js133198330710884935 0
 78C:\Users\Vitalii\Desktop\command\node_modules\type-fest\source\promisable.d.ts133198330692716828 0
@@ -237,7 +237,7 @@
 96C:\Users\Vitalii\Desktop\command\node_modules\caniuse-lite\data\features\private-class-fields.js133198330715130472 0
 103C:\Users\Vitalii\Desktop\command\node_modules\@parcel\runtime-js\lib\helpers\browser\import-polyfill.js133198330721214206 0
 63C:\Users\Vitalii\Desktop\command\src\sass\components\_hero.scss133194907492008677 0
-60C:\Users\Vitalii\Desktop\command\src\partials\tradition.html133198357831149582 0
+60C:\Users\Vitalii\Desktop\command\src\partials\tradition.html133198375160377679 0
 95C:\Users\Vitalii\Desktop\command\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest5.c133198330709424268 0
 103C:\Users\Vitalii\Desktop\command\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\Doxyfile133198330696606436 0
 56C:\Users\Vitalii\Desktop\command\node_modules\fill-range133198330701882489 1
@@ -694,7 +694,7 @@
 61C:\Users\Vitalii\Desktop\command\node_modules\posthtml-render133198330692377741 1
 102C:\Users\Vitalii\Desktop\command\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV1\files133198330697583830 1
 96C:\Users\Vitalii\Desktop\command\node_modules\caniuse-lite\data\features\prefers-color-scheme.js133198330715120494 0
-66C:\Users\Vitalii\Desktop\command\dist\icecoffee-pc@2x.adcda760.png133198364227978024 0
+66C:\Users\Vitalii\Desktop\command\dist\icecoffee-pc@2x.adcda760.png133198376241679441 0
 78C:\Users\Vitalii\Desktop\command\node_modules\chokidar\lib\fsevents-handler.js133198330706663160 0
 96C:\Users\Vitalii\Desktop\command\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\chacha8.h133198330709900221 0
 55C:\Users\Vitalii\Desktop\command\node_modules\picomatch133198330693993419 1
@@ -834,7 +834,7 @@
 57C:\Users\Vitalii\Desktop\command\node_modules\yaml\map.js133198330690831875 0
 64C:\Users\Vitalii\Desktop\command\node_modules\tslib\package.json133198330689605157 0
 79C:\Users\Vitalii\Desktop\command\node_modules\@parcel\workers\src\childState.js133198330710555805 0
-61C:\Users\Vitalii\Desktop\command\dist\logo-pc@2x.68c66418.png133198364228027892 0
+61C:\Users\Vitalii\Desktop\command\dist\logo-pc@2x.68c66418.png133198376242606956 0
 81C:\Users\Vitalii\Desktop\command\node_modules\type-fest\source\promise-value.d.ts133198330692806590 0
 75C:\Users\Vitalii\Desktop\command\node_modules\posthtml-include\node_modules133198330682529579 1
 77C:\Users\Vitalii\Desktop\command\node_modules\caniuse-lite\data\regions\GD.js133198330713085280 0
@@ -987,7 +987,7 @@
 76C:\Users\Vitalii\Desktop\command\node_modules\xxhash-wasm\esm\xxhash-wasm.js133198330689315927 0
 81C:\Users\Vitalii\Desktop\command\node_modules\svgo\lib\svgo\css-select-adapter.js133198330692138388 0
 155C:\Users\Vitalii\Desktop\command\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules\source-pnpm\dist.js133198330738242012 0
-70C:\Users\Vitalii\Desktop\command\dist\hero-icecream-pc@2x.565bf62e.png133198364228007943 0
+70C:\Users\Vitalii\Desktop\command\dist\hero-icecream-pc@2x.565bf62e.png133198376241699391 0
 80C:\Users\Vitalii\Desktop\command\node_modules\xxhash-wasm\esm\xxhash-wasm.js.map133198330689585213 0
 80C:\Users\Vitalii\Desktop\command\node_modules\node-addon-api\tools\conversion.js133198330696746059 0
 70C:\Users\Vitalii\Desktop\command\node_modules\weak-lru-cache\README.md133198330690363126 0
@@ -2103,7 +2103,7 @@
 75C:\Users\Vitalii\Desktop\command\node_modules\csso\lib\replace\Dimension.js133198330707154724 0
 90C:\Users\Vitalii\Desktop\command\node_modules\@parcel\transformer-postcss\src\constants.js133198330717135108 0
 108C:\Users\Vitalii\Desktop\command\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional.ps1133198330897112342 0
-59C:\Users\Vitalii\Desktop\command\dist\index.975ef6c8.js.map133198364228142691 0
+59C:\Users\Vitalii\Desktop\command\dist\index.975ef6c8.js.map133198376242786473 0
 100C:\Users\Vitalii\Desktop\command\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-test133198330897162208 0
 65C:\Users\Vitalii\Desktop\command\node_modules\fill-range\index.js133198330701872518 0
 104C:\Users\Vitalii\Desktop\command\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-test.cmd133198330897162208 0
@@ -2536,7 +2536,7 @@
 64C:\Users\Vitalii\Desktop\command\node_modules\htmlnano\docs\docs133198330709670832 1
 56C:\Users\Vitalii\Desktop\command\assets\how-it-works.png133192305983662529 0
 72C:\Users\Vitalii\Desktop\command\node_modules\htmlnano\docs\netlify.toml133198330709740658 0
-62C:\Users\Vitalii\Desktop\command\dist\woman-pc@2x.0bd75672.png133198364227848372 0
+62C:\Users\Vitalii\Desktop\command\dist\woman-pc@2x.0bd75672.png133198376241041143 0
 62C:\Users\Vitalii\Desktop\command\node_modules\fclone\README.md133198330701623189 0
 72C:\Users\Vitalii\Desktop\command\node_modules\htmlnano\docs\package.json133198330709052749 0
 79C:\Users\Vitalii\Desktop\command\node_modules\@swc\helpers\lib\_to_primitive.js133198330717294675 0
@@ -2772,7 +2772,7 @@
 94C:\Users\Vitalii\Desktop\command\node_modules\@parcel\runtime-js\lib\helpers\get-worker-url.js133198330721154362 0
 76C:\Users\Vitalii\Desktop\command\node_modules\domutils\lib\querying.d.ts.map133198330704505476 0
 80C:\Users\Vitalii\Desktop\command\node_modules\caniuse-lite\data\features\webp.js133198330717204920 0
-70C:\Users\Vitalii\Desktop\command\dist\hero-icecream-pc@1x.28882df3.png133198364227848372 0
+70C:\Users\Vitalii\Desktop\command\dist\hero-icecream-pc@1x.28882df3.png133198376241031170 0
 82C:\Users\Vitalii\Desktop\command\node_modules\@parcel\core\test\serializer.test.js133198330747743211 0
 70C:\Users\Vitalii\Desktop\command\node_modules\domutils\lib\querying.js133198330704445640 0
 85C:\Users\Vitalii\Desktop\command\node_modules\css-tree\lib\common\OffsetToLocation.js133198330710179485 0
@@ -4455,7 +4455,7 @@
 92C:\Users\Vitalii\Desktop\command\node_modules\@parcel\core\test\fixtures\parcel\package.json133198330748850244 0
 89C:\Users\Vitalii\Desktop\command\node_modules\@parcel\core\test\fixtures\parcel\yarn.lock133198330748939999 0
 97C:\Users\Vitalii\Desktop\command\node_modules\@parcel\core\test\fixtures\main-global\package.json133198330748830294 0
-64C:\Users\Vitalii\Desktop\command\dist\gallery-pc@1x.4201920d.jpg133198364227987998 0
+64C:\Users\Vitalii\Desktop\command\dist\gallery-pc@1x.4201920d.jpg133198376241649517 0
 106C:\Users\Vitalii\Desktop\command\node_modules\@parcel\core\test\fixtures\main-format-mismatch\package.json133198330748820327 0
 101C:\Users\Vitalii\Desktop\command\node_modules\@parcel\core\test\fixtures\invalid-targets\package.json133198330748800382 0
 116C:\Users\Vitalii\Desktop\command\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\package.json133198330748790402 0
@@ -4743,20 +4743,21 @@
 59C:\Users\Vitalii\Desktop\command\node_modules\.bin\svgo.ps1133198330897122509 0
 61C:\Users\Vitalii\Desktop\command\node_modules\.bin\terser.cmd133198330897122509 0
 61C:\Users\Vitalii\Desktop\command\node_modules\.bin\terser.ps1133198330897122509 0
-63C:\Users\Vitalii\Desktop\command\dist\avatar-pc@1x.f6db590f.jpg133198364227848372 0
-63C:\Users\Vitalii\Desktop\command\dist\avatar-pc@2x.1765a723.jpg133198364227978024 0
-64C:\Users\Vitalii\Desktop\command\dist\gallery-pc@2x.9c20c2c6.jpg133198364228072994 0
-66C:\Users\Vitalii\Desktop\command\dist\icecoffee-pc@1x.3da3cbd5.png133198364227848372 0
-65C:\Users\Vitalii\Desktop\command\dist\icecream-pc@1x.154b9af9.png133198364227968058 0
-65C:\Users\Vitalii\Desktop\command\dist\icecream-pc@2x.34816e2d.png133198364228047845 0
-55C:\Users\Vitalii\Desktop\command\dist\index.975ef6c8.js133198364228132725 0
-56C:\Users\Vitalii\Desktop\command\dist\index.f7626f62.css133198364228092822 0
-60C:\Users\Vitalii\Desktop\command\dist\index.f7626f62.css.map133198364228102791 0
-48C:\Users\Vitalii\Desktop\command\dist\index.html133198364227798508 0
-61C:\Users\Vitalii\Desktop\command\dist\logo-pc@1x.4139a676.png133198364227958081 0
-66C:\Users\Vitalii\Desktop\command\dist\milkshake-pc@1x.c61b29df.png133198364228027892 0
-66C:\Users\Vitalii\Desktop\command\dist\milkshake-pc@2x.2babf0e9.png133198364227928160 0
-65C:\Users\Vitalii\Desktop\command\dist\products-arrow.f8c186bf.svg133198364227708762 0
-62C:\Users\Vitalii\Desktop\command\dist\woman-pc@1x.657ebcf0.png133198364228027892 0
+63C:\Users\Vitalii\Desktop\command\dist\avatar-pc@1x.f6db590f.jpg133198376241041143 0
+63C:\Users\Vitalii\Desktop\command\dist\avatar-pc@2x.1765a723.jpg133198376241639544 0
+64C:\Users\Vitalii\Desktop\command\dist\gallery-pc@2x.9c20c2c6.jpg133198376242646849 0
+66C:\Users\Vitalii\Desktop\command\dist\icecoffee-pc@1x.3da3cbd5.png133198376241041143 0
+65C:\Users\Vitalii\Desktop\command\dist\icecream-pc@1x.154b9af9.png133198376241609621 0
+65C:\Users\Vitalii\Desktop\command\dist\icecream-pc@2x.34816e2d.png133198376242626904 0
+55C:\Users\Vitalii\Desktop\command\dist\index.975ef6c8.js133198376242776504 0
+56C:\Users\Vitalii\Desktop\command\dist\index.f7626f62.css133198376241041143 0
+60C:\Users\Vitalii\Desktop\command\dist\index.f7626f62.css.map133198376241130906 0
+48C:\Users\Vitalii\Desktop\command\dist\index.html133198376241031170 0
+61C:\Users\Vitalii\Desktop\command\dist\logo-pc@1x.4139a676.png133198376241609621 0
+66C:\Users\Vitalii\Desktop\command\dist\milkshake-pc@1x.c61b29df.png133198376242606956 0
+66C:\Users\Vitalii\Desktop\command\dist\milkshake-pc@2x.2babf0e9.png133198376241051115 0
+65C:\Users\Vitalii\Desktop\command\dist\products-arrow.f8c186bf.svg133198376241759225 0
+57C:\Users\Vitalii\Desktop\command\dist\sprite.f14d31f7.svg133198376242956023 0
+62C:\Users\Vitalii\Desktop\command\dist\woman-pc@1x.657ebcf0.png133198376242606956 0
 50C:\Users\Vitalii\Desktop\command\assets\status.png133192305983702478 0
 61C:\Users\Vitalii\Desktop\command\.github\workflows\deploy.yml133192305983542688 0
