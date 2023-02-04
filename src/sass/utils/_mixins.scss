@@ -6,3 +6,20 @@
   letter-spacing: 0.04em;
   color: $secondary-text-color;
 }
+
+@mixin btn($btn-background: $title-color, $btn-width: 159px) {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: $secondary-text-color;
+  background-color: $btn-background;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  width: $btn-width;
+  justify-content: center;
+}

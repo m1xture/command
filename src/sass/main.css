@@ -1,0 +1,402 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
+
+body {
+  font-family: "DM Sans";
+}
+
+button {
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+button:hover {
+  transform: scale(1.05);
+}
+
+.container {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 115px;
+  padding-left: 115px;
+}
+@media screen and (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+p::-moz-selection {
+  background-color: #E17992;
+}
+
+p::selection {
+  background-color: #E17992;
+}
+
+.products__100 {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFA5BA;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.products__title {
+  font-family: "Titan One";
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 1.137;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #D41443;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.header__logo {
+  position: absolute;
+  width: 200px;
+  left: 46px;
+  top: 37px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: center;
+}
+
+.header__item {
+  margin-left: 35px;
+}
+
+.header__link {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header__btn {
+  color: #d41443;
+  background-color: #aaa;
+  border-radius: 22px;
+  border: none;
+  width: 159px;
+  height: 44px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.hero {
+  position: relative;
+  background-color: #FFB8CA;
+  padding-top: 160px;
+}
+
+.hero__title {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 277px;
+}
+
+.passion {
+  color: #D41443;
+  font-size: 58px;
+  line-height: 0.9;
+}
+
+.hero-block-btn {
+  display: flex;
+  margin-top: 25px;
+}
+
+.hero__button1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #D41443;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  width: 104px;
+  justify-content: center;
+}
+
+.hero__button2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  width: 136px;
+  justify-content: center;
+  color: #D41443;
+  margin-left: 15px;
+}
+
+.hero__milk-text {
+  display: flex;
+  margin-top: 56px;
+  align-items: center;
+}
+
+.hero-block-arrow {
+  position: relative;
+  display: flex;
+}
+
+.hero__text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+  max-width: 200px;
+}
+
+.hero__arrow {
+  position: absolute;
+  background-image: url(../images/her-arrow.svg);
+  height: 26px;
+  width: 26px;
+  background-color: transparent;
+  border: none;
+  display: block;
+  top: 93px;
+}
+
+.hero-icecream {
+  position: absolute;
+  height: 557px;
+  width: 236px;
+  left: 594px;
+  top: 108px;
+}
+
+.circle {
+  position: absolute;
+  z-index: -1;
+  width: 538px;
+  height: 538px;
+  left: 475px;
+  top: 52px;
+  background-color: #FFA5BA;
+  border-radius: 50%;
+}
+
+.hero__woman {
+  position: absolute;
+  width: 293px;
+  height: 232px;
+  left: 878px;
+  top: 433px;
+}
+
+.hero__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__number {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 53px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #D41443;
+  display: block;
+}
+
+.hero__subtext {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #fff;
+}
+
+.circle1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1153px;
+  top: 156px;
+  z-index: -1;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.circle2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1153px;
+  top: 248px;
+  z-index: -1;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.products {
+  padding-top: 127px;
+  padding-bottom: 119px;
+}
+
+.products__list {
+  display: flex;
+  margin-top: 259px;
+  justify-content: center;
+}
+
+.products__item {
+  margin-right: 30px;
+  border-radius: 24px;
+  padding-top: 163px;
+  padding-right: 44px;
+  padding-bottom: 50px;
+  padding-left: 44px;
+  position: relative;
+}
+.products__item:first-child {
+  background-color: #FFB8CA;
+}
+.products__item:nth-child(2) {
+  background-color: #f0d1a5;
+}
+.products__item:last-child {
+  margin-right: 0;
+  background-color: #c2e297;
+}
+
+.products__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.13;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Titan One";
+  margin-top: 38px;
+}
+.products__subtitle::after {
+  content: "...";
+  display: block;
+  margin-top: 32px;
+}
+
+.products__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 32px;
+}
+
+.products__icecream {
+  position: absolute;
+  top: -200px;
+  right: 0.5%;
+}
+
+.products__btn {
+  background-image: url(../images/products-arrow.svg);
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  margin-top: 62px;
+}/*# sourceMappingURL=main.css.map */
