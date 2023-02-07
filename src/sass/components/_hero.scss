@@ -2,6 +2,14 @@
   position: relative;
   background-color: $background-color;
   padding-top: 160px;
+  padding-bottom: 38px;
+}
+
+.hero .container {
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  position: relative;
 }
 
 .hero__title {
@@ -37,6 +45,12 @@
   @include btn($btn-width: 136px, $btn-background: $secondary-text-color);
   color: $title-color;
   margin-left: 15px;
+}
+
+.hero__numbers {
+  position: absolute;
+  right: 0;
+  top: -4px;
 }
 
 .hero__milk-text {
@@ -80,20 +94,21 @@
 }
 
 .hero-icecream {
+  z-index: 2;
   position: absolute;
-  height: 557px;
+  // height: 557px;
   width: 236px;
   left: 594px;
-  top: 108px;
+  top: -52px;
 }
 
 .circle {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   width: 538px;
   height: 538px;
-  left: 475px;
-  top: 52px;
+  top: -108px;
+  right: 267px;
   background-color: $subtitle-color;
   border-radius: 50%;
 }
@@ -102,15 +117,14 @@
   position: absolute;
   width: 293px;
   height: 232px;
-  left: 878px;
-  top: 433px;
+  right: 0;
+  top: 273px;
 }
 
 .hero__list {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .hero__item {
@@ -140,22 +154,22 @@
 }
 
 .circle1 {
-  position: absolute;
+  // position: absolute;
+  // left: 1153px;
+  // top: 156px;
   width: 30px;
   height: 30px;
-  left: 1153px;
-  top: 156px;
   z-index: -1;
   border-radius: 50%;
   background-color: $secondary-text-color;
 }
 
 .circle2 {
-  position: absolute;
+  // position: absolute;
+  // left: 1153px;
+  // top: 248px;
   width: 30px;
   height: 30px;
-  left: 1153px;
-  top: 248px;
   z-index: -1;
   border-radius: 50%;
   background-color: $secondary-text-color;
