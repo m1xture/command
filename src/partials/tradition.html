@@ -1,10 +1,34 @@
 <section class="tradition">
   <div class="container">
     <div class="tradition-block-title">
-      <p class="tradition__subtitle">tradition and love</p>
-      <h2 class="tradition__title">how it’s made?</h2>
+      <p class="products__100">tradition and love</p>
+      <h2 class="products__title">how it’s made?</h2>
     </div>
-    <img src="#" alt="Moooo" />
+    <div class="tradition-block">
+    <div class="tradition-block-img">
+      <picture>
+        <!-- <source
+        media="(max-width: 767px)"
+        srcset="
+           1x,
+           2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          1x,
+          2x
+        "
+      /> -->
+        <source media="(min-width: 1200px)" srcset="
+        images/tradition/cow-pc@1x.png 1x,
+        images/tradition/cow-pc@2x.png 2x
+
+        " />
+        <img src="images/tradition/cow-pc@1x.png" alt="MOOOOOOOOO" class="tradition__cow" />
+      </picture>
+    </div>
     <div class="tradition-block-text">
       <p class="tradition__text">
         Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
@@ -20,22 +44,35 @@
       <p class="tradition__subtext">Aliquam erat volutpat. Aenean accumsan.</p>
       <button class="tradition__btn" type="button">Read more</button>
     </div>
+  </div>
     <ul class="tradition__list">
       <li class="tradition__item">
+         <!-- <svg width="33px" height="50px" class="tradition__svg">
+          <use href="./images/milk.svg">
+          </use>
+        </svg>-->
         <h3 class="tradition__title">721</h3>
-        <p class="tradition__text">
+        <p class="tradition__text1">
           Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
         </p>
       </li>
       <li class="tradition__item">
+        <!-- <svg width="50px" height="50px" class="tradition__svg">
+          <use href="images/apple.svg">
+          </use>
+        </svg> -->
         <h3 class="tradition__title">16kg</h3>
-        <p class="tradition__text">
+        <p class="tradition__text1">
           Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
         </p>
       </li>
       <li class="tradition__item">
+        <!-- <svg width="44px" height="50px" class="tradition__svg">
+          <use href="images/ice-cream.svg">
+          </use>
+        </svg> -->
         <h3 class="tradition__title">84</h3>
-        <p class="tradition__text">
+        <p class="tradition__text1">
           Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
         </p>
       </li>
@@ -43,25 +80,30 @@
     <picture>
       <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
       <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
-      <source media="(min-width: 1200px)" srcset="images/gallery/gallery-pc@1x.jpg 1x, images/gallery/gallery-pc@2x.jpg 2x" />
+      <source media="(min-width: 1200px)"
+        srcset="images/gallery/gallery-pc@1x.jpg 1x, images/gallery/gallery-pc@2x.jpg 2x" />
       <img src="images/gallery/gallery-pc@1x.jpg" alt="icecream" class="gallery__img" />
     </picture>
     <div class="gallery_div">
       <picture>
         <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
         <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
-        <source media="(min-width: 1200px)" srcset="images/comment/avatar-pc@1x.jpg 1x, images/comment/avatar-pc@2x.jpg 2x" />
+        <source media="(min-width: 1200px)"
+          srcset="images/comment/avatar-pc@1x.jpg 1x, images/comment/avatar-pc@2x.jpg 2x" />
         <img src="images/comment/avatar-pc@1x.jpg" alt="" class="gallery__img" />
       </picture>
-    <div class="gallery_commetsdiv">
-    <svg width="54px" height="40px" class="gallery_svg">
-      <use href="#">
-      </use>
-    </svg>
-    <p>
-      Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
-    </p>
-  </div>
-  </div>
+      <div class="gallery_commetsdiv">
+        <svg width="54px" height="40px" class="gallery__svg">
+          <use href="./images/sprite.svg#icon-1">
+          </use>
+        </svg>
+        <div class="gallery__background">
+          <p class="tradition__comment">
+            Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc,
+            accumsan congue. Lorem ipsum primis in nibh vel risus.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
