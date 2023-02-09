@@ -76,7 +76,7 @@ p::selection {
   background-color: #E17992;
 }
 
-.products__100 {
+.passion, .products__100 {
   font-family: "Titan One";
   font-weight: 400;
   font-size: 30px;
@@ -118,6 +118,7 @@ header {
 }
 
 .header__list {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -139,7 +140,7 @@ header {
 
 .header__btn {
   color: #d41443;
-  background-color: #aaa;
+  background-color: #fff;
   border-radius: 22px;
   border: none;
   width: 159px;
@@ -155,6 +156,7 @@ header {
   position: relative;
   background-color: #FFB8CA;
   padding-top: 160px;
+  height: 665px;
 }
 
 .hero__title {
@@ -216,6 +218,12 @@ header {
   justify-content: center;
   color: #D41443;
   margin-left: 15px;
+}
+
+.hero__numbers {
+  position: absolute;
+  left: 1111px;
+  top: 156px;
 }
 
 .hero__milk-text {
@@ -399,4 +407,79 @@ header {
   background-color: transparent;
   border: none;
   margin-top: 62px;
+}
+
+.locations {
+  background-image: linear-gradient(to bottom, #FFF5F6 50%, #fff);
+}
+
+.locations__list {
+  display: flex;
+}
+
+.locations__item {
+  padding-top: 51px;
+  padding-right: 44px;
+  padding-bottom: 62px;
+  padding-left: 43px;
+}
+
+footer {
+  padding-top: 165px;
+}
+
+.container .footer__container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 97px;
+}
+
+.footer__contact {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+.footer__phone {
+  color: #D41443;
+}
+
+.footer__company {
+  margin-top: 9px;
+}
+
+.footer__company-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #907E82;
+  text-align: center;
+}
+
+.footer__icon-list {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: flex-end;
+}
+
+.footer__icon {
+  margin-right: 24px;
+}
+.footer__icon:last-child {
+  margin-right: 0;
+}
+
+.footer__link {
+  background-color: #fea5bb;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #fff;
 }/*# sourceMappingURL=main.css.map */
