@@ -6,9 +6,6 @@
 }
 
 .hero .container {
-  // display: flex;
-  // justify-content: space-around;
-  // flex-wrap: wrap;
   position: relative;
 }
 
@@ -59,17 +56,20 @@
   align-items: center;
 }
 
+.hero__milk-block {
+  // position: relative;
+}
+
 .hero__milk {
-  // position: absolute;
-  // width: 188px;
-  // height: 191px;
-  // left: 77px;
-  // top: 429px;
+  margin-left: -38px;
+  height: 191px;
+  width: 188px;
 }
 
 .hero-block-arrow {
   position: relative;
   display: flex;
+  margin-left: 30px;
 }
 
 .hero__text {
@@ -96,10 +96,9 @@
 .hero-icecream {
   z-index: 2;
   position: absolute;
-  // height: 557px;
   width: 236px;
-  left: 594px;
-  top: -52px;
+  left: 494px;
+  top: -67px;
 }
 
 .circle {
@@ -108,7 +107,7 @@
   width: 538px;
   height: 538px;
   top: -108px;
-  right: 267px;
+  right: 165px;
   background-color: $subtitle-color;
   border-radius: 50%;
 }
@@ -118,7 +117,7 @@
   width: 293px;
   height: 232px;
   right: 0;
-  top: 273px;
+  top: 258px;
 }
 
 .hero__list {
@@ -128,6 +127,10 @@
 }
 
 .hero__item {
+  position: relative;
+  &:first-child{
+    margin-bottom: 18px;
+  }
 }
 
 .hero__number {
@@ -154,23 +157,12 @@
 }
 
 .circle1 {
-  // position: absolute;
-  // left: 1153px;
-  // top: 156px;
+  position: absolute;
+  z-index: 0;
+  top: -4px;
+  right: -18px;
   width: 30px;
   height: 30px;
-  z-index: -1;
-  border-radius: 50%;
-  background-color: $secondary-text-color;
-}
-
-.circle2 {
-  // position: absolute;
-  // left: 1153px;
-  // top: 248px;
-  width: 30px;
-  height: 30px;
-  z-index: -1;
   border-radius: 50%;
   background-color: $secondary-text-color;
 }
