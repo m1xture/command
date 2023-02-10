@@ -14,6 +14,9 @@
 margin-right: 74px;
 }
 
+// .tradition .container{
+//     background-color: white;
+// }
 
 .tradition__item::before{
     content:'';
@@ -141,10 +144,19 @@ margin-right: 74px;
 }
 
 .gallery__svg{
+    z-index: 2;
+    top:32px ;
+    left: 50px;
+    position: absolute;
     fill: #E1E1E1;
 }
 
+.gallery_commetsdiv{
+    position: relative;
+}
+
 .gallery__background{
+
     padding-top: 47px;
     padding-right: 89px;
     padding-bottom: 39px;
@@ -152,7 +164,18 @@ margin-right: 74px;
 background-color: #FAFAFA;
 }
 
+.gallery_div{
+    background-color: $secondary-text-color;
+}
+
+.gallery__img{
+//    width: 100%;
+width: 85px;
+margin-left: 500px;
+}
+
 .tradition__comment{
+    margin-top: 15px;
 font-family: 'DM Sans';
 font-style: normal;
 font-weight: 500;
