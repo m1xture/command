@@ -68,3 +68,26 @@
   line-height: 1.81;
   color: $subtext-color;
 }
+
+.locations__sublist{
+  display: flex;
+  justify-content: center;
+  margin-top: 86px;
+}
+
+.locations__subitem:last-child{
+  margin-left: 15px;
+}
+
+.locations__btn{
+  @include btn($btn-background: $title-color, $btn-width: 198px);
+  height: 44px;
+  font-weight: 700;
+}
+
+.locations__btn2{
+  @include btn($btn-background: $secondary-text-color, $btn-width: 180px);
+  height: 44px;
+  font-weight: 700;
+  color: $title-color;
+}

@@ -29,10 +29,6 @@ header .container{
 
 .header__list {
   display: flex;
-
-
-  //   left: 355px;
-  //   top: 50px;
 }
 
 .header__item {
@@ -49,6 +45,11 @@ header .container{
   align-items: center;
   color: $secondary-text-color;
   transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1) 50ms;
+  transition-delay: 50ms;
+}
+
+.home{
+  color: $title-color;
 }
 
 .header__link:hover {
