@@ -2,12 +2,38 @@ footer {
   padding-top: 165px;
 }
 .container .footer__container {
+  @media screen and (min-width:320px) {
+    display: block;
+  }
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 97px;
 }
+
+.footer__title {
+  @media screen and (min-width:320px) {
+  text-align: left;
+  font-size: 34px;
+  line-height: 39px;
+  letter-spacing: 0.04em;
+  }
+}
+
+.footer__subtitle {
+  @media screen and (min-width:320px) {
+  text-align: left;
+  font-size: 18px;
+  line-height: 21px;
+  }
+}
+
 .footer__contact {
+  @media screen and (min-width:320px) {
+    font-size: 12px;
+    text-align: right;
+    display: block;
+  }
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;

@@ -49,22 +49,22 @@
   }
 }
 .products__text {
-    @include special-text($align: center);
-    margin-top: 32px;
+  @include special-text($align: center);
+  margin-top: 32px;
 }
 .products__icecream {
-    position: absolute;
-    top: -200px;
-    right: 0.5%;
+  position: absolute;
+  top: -200px;
+  right: 0.5%;
 }
 .products__btn {
-    background-image: url(../images/products-arrow.svg);
-    height: 40px;
-    width: 40px;
-    background-color: transparent;
-    border: none;
-    margin-top: 62px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  background-image: url(../images/products-arrow.svg);
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  margin-top: 62px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
