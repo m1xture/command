@@ -11,16 +11,24 @@
 
 .hero__title {
   font-family: 'Titan One';
-  font-style: normal;
   font-weight: 400;
-  font-size: 38px;
-  line-height: 44px;
+
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $secondary-text-color;
   display: flex;
   flex-wrap: wrap;
-  max-width: 277px;
+
+  @media screen and (min-width: 320px) {
+    font-size: 26px;
+    line-height: 30px;
+    max-width: 216px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 38px;
+    line-height: 44px;
+    max-width: 277px;
+  }
 }
 
 .passion {
@@ -36,24 +44,47 @@
 
 .hero__button1 {
   @include btn($btn-width: 104px);
+  @media screen and (min-width: 320px) {
+    width: 61px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 104px;
+  }
 }
 
 .hero__button2 {
   @include btn($btn-width: 136px, $btn-background: $secondary-text-color);
   color: $title-color;
   margin-left: 15px;
+  @media screen and (min-width: 320px) {
+    width: 83px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 104px;
+  }
 }
 
 .hero__numbers {
-  position: absolute;
-  right: 0;
-  top: -4px;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -4px;
+  }
 }
 
 .hero__milk-text {
-  display: flex;
-  margin-top: 56px;
-  align-items: center;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-top: 56px;
+    align-items: center;
+  }
 }
 
 .hero__milk-block {
@@ -94,30 +125,52 @@
 }
 
 .hero-icecream {
-  z-index: 2;
   position: absolute;
-  width: 236px;
-  left: 494px;
-  top: -67px;
+
+  @media screen and (min-width: 320px) {
+    width: 171px;
+    top: -101px;
+    right: -12px;
+    z-index: -1;
+  }
+  @media screen and (min-width: 1200px) {
+    left: 494px;
+    top: -67px;
+    z-index: 2;
+    width: 236px;
+  }
 }
 
 .circle {
   position: absolute;
-  z-index: 0;
-  width: 538px;
-  height: 538px;
-  top: -108px;
-  right: 165px;
   background-color: $subtitle-color;
   border-radius: 50%;
+  @media screen and (min-width: 320px) {
+    z-index: -2;
+    width: 346px;
+    height: 344px;
+  }
+  @media screen and (min-width: 1200px) {
+    z-index: 0;
+    width: 538px;
+    height: 538px;
+    top: -108px;
+    right: 165px;
+  }
 }
 
 .hero__woman {
-  position: absolute;
-  width: 293px;
-  height: 232px;
-  right: 0;
-  top: 258px;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: block;
+    position: absolute;
+    width: 293px;
+    height: 232px;
+    right: 0;
+    top: 258px;
+  }
 }
 
 .hero__list {
@@ -128,7 +181,7 @@
 
 .hero__item {
   position: relative;
-  &:first-child{
+  &:first-child {
     margin-bottom: 18px;
   }
 }

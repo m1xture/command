@@ -11,15 +11,23 @@
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+
   display: flex;
   align-items: center;
   color: $secondary-text-color;
   background-color: $btn-background;
   border-radius: 20px;
   border: none;
-  height: 40px;
   width: $btn-width;
   justify-content: center;
+  @media screen and (min-width: 320px) {
+    height: 24px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 40px;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
