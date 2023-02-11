@@ -14,12 +14,12 @@ button {
   margin-right: auto;
   outline: solid red;
   @media screen and (min-width: 320px) {
-    width: 280px;
+    width: 320px;
     padding-right: 20px;
     padding-left: 20px;
   }
   @media screen and (min-width: 768px) {
-    width: 700px;
+    width: 768px;
     padding-right: 34px;
     padding-left: 34px;
   }
@@ -30,5 +30,8 @@ button {
   }
 }
 p::selection {
+  background-color: #e17992;
+}
+h2::selection {
   background-color: #e17992;
 }
