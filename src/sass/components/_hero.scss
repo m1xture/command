@@ -7,6 +7,11 @@
     // padding-top: 193px;
     height: 502px;
   }
+  @media screen and (min-width: 768px) {
+    height: auto;
+    padding-bottom: 15px;
+    padding-top: 102px;
+  }
   @media screen and (min-width: 1200px) {
     padding-top: 160px;
     padding-bottom: 38px;
@@ -33,6 +38,11 @@
     line-height: 30px;
     max-width: 216px;
   }
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+    line-height: 25px;
+    max-width: 162px;
+  }
   @media screen and (min-width: 1200px) {
     font-size: 38px;
     line-height: 44px;
@@ -54,7 +64,12 @@
 
 .hero-block-btn {
   display: flex;
-  margin-top: 25px;
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 25px;
+  }
 }
 
 .hero__button1 {
@@ -83,8 +98,11 @@
   @media screen and (min-width: 320px) {
     display: none;
   }
-  @media screen and (min-width: 768px){
-    display: block;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    position: absolute;
+    right: 34px;
+    top: -6px;
   }
   @media screen and (min-width: 1200px) {
     position: absolute;
@@ -97,12 +115,13 @@
   @media screen and (min-width: 320px) {
     display: none;
   }
-   @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     display: flex;
-   }
+    align-items: center;
+    margin-top: 19px;
+  }
   @media screen and (min-width: 1200px) {
     margin-top: 56px;
-    align-items: center;
   }
 }
 
@@ -111,9 +130,14 @@
 }
 
 .hero__milk {
-  margin-left: -38px;
-  height: 191px;
-  width: 188px;
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
+    width: 124px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: -38px;
+    width: 188px;
+  }
 }
 
 .hero-block-arrow {
@@ -124,23 +148,37 @@
 
 .hero__text {
   font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4;
   color: $secondary-text-color;
-  max-width: 200px;
+  @media screen and (min-width: 768px) {
+    font-size: 8px;
+    line-height: 150%;
+    max-width: 114px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 200px;
+  }
 }
 
 .hero__arrow {
   position: absolute;
   background-image: url(../images/her-arrow.svg);
-  height: 26px;
-  width: 26px;
   background-color: transparent;
   border: none;
   display: block;
-  top: 93px;
+  @media screen and (min-width: 768px) {
+    top: 55px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/hero/hero-arrow-tablet.svg);
+  }
+  @media screen and (min-width: 1200px) {
+    height: 26px;
+    width: 26px;
+    top: 93px;
+  }
 }
 
 .hero-icecream {
@@ -150,6 +188,11 @@
     top: 98px;
     right: 32px;
     z-index: 2;
+  }
+  @media screen and (min-width: 768px) {
+    width: 143px;
+    top: -39px;
+    right: 247px;
   }
   @media screen and (min-width: 1200px) {
     left: 494px;
@@ -170,12 +213,20 @@
     top: 83px;
     left: 36px;
   }
+  @media screen and (min-width: 768px) {
+    width: 324px;
+    height: 322px;
+    top: -71px;
+    right: 137px;
+    left: auto;
+  }
   @media screen and (min-width: 1200px) {
     z-index: 0;
     width: 538px;
     height: 538px;
     top: -108px;
     right: 165px;
+    left: auto;
   }
 }
 
@@ -183,15 +234,19 @@
   @media screen and (min-width: 320px) {
     display: none;
   }
-   @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     display: block;
-   }
-  @media screen and (min-width: 1200px) {
+    width: 168px;
     position: absolute;
+    top: 164px;
+    right: 34px;
+    z-index: 2;
+  }
+  @media screen and (min-width: 1200px) {
     width: 293px;
     height: 232px;
-    right: 0;
     top: 258px;
+    z-index: auto;
   }
 }
 
@@ -204,7 +259,12 @@
 .hero__item {
   position: relative;
   &:first-child {
-    margin-bottom: 18px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 14px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 18px;
+    }
   }
 }
 
@@ -219,16 +279,19 @@
   text-transform: uppercase;
   color: $title-color;
   display: block;
+  // position: absolute;
+  // z-index: 2;
 }
 
 .hero__subtext {
   font-family: 'DM Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   text-align: right;
   color: $secondary-text-color;
+  // display: inline-flex;
+  // flex-direction: column;
 }
 
 .circle1 {
@@ -248,7 +311,8 @@
     // bottom: -260px;
     top: 193px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
+    // top: 102px;
     position: static;
   }
 }
