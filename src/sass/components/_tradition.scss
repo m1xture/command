@@ -144,10 +144,6 @@
 .tradition__comment {
     padding-right: 35px;
     padding-left: 35px;
-    // text-decoration: underline;
-    // text-decoration-color:#E1E1E1;
-    // text-underline-position:under;
-    // text-decoration-line: underline;
     font-weight: 500;
     font-size: 16px;
     line-height: 186%;
@@ -155,13 +151,11 @@
     letter-spacing: 0.04em;
     color: #000000;
     font-family: 'DM Sans';
-
-
-  background-image: -webkit-repeating-linear-gradient(top, transparent 0px, transparent 19px, #000 0px, transparent 20px);
-  background-image: -moz-repeating-linear-gradient(top, transparent 0px, transparent 19px, #000 0px, transparent 20px);
-  background-image: -ms-repeating-linear-gradient(top, transparent 0px, transparent 19px, #000 0px, transparent 20px);
-  background-image: -o-repeating-linear-gradient(top, transparent 0px, transparent 19px, #000 0px, transparent 20px);
-  background-image: repeating-linear-gradient(top, transparent 0px, transparent 19px, #000 0px, transparent 20px);
+max-width: 100%;
+    text-decoration: underline;
+    text-decoration-color:#E1E1E1;
+    text-underline-position:under;
+    text-decoration-line: underline;
 }
 
 .gallery__svg {
@@ -177,7 +171,9 @@
 }
 
 .gallery__background {
-    display: flex;
+margin-left:auto ;
+margin-right: auto;
+position: relative;
 max-width: 926px;
     padding-top: 47px;
     padding-right: 89px;
