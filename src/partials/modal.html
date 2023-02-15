@@ -1,0 +1,50 @@
+<section class="modal-container">
+  <h2 class="modal__title">Buy something coldish and fresh right now!</h2>
+  <button class="modal__btn-close"></button>
+  <form class="modal__form">
+    <ul class="modal__list">
+      <li class="modal__item">
+        <label for="">Name</label>
+        <input required type="text" class="modal__input" placeholder="Type your name here" id="" />
+      </li>
+      <li class="modal__item">
+        <label for="">Phone</label>
+        <input required type="text" class="modal__input" placeholder="Type your phone number here" id="" />
+      </li>
+      <li class="modal__item">
+        <div class="modal__input-dropdown">
+          <p class="modal__dropdown__placeholder">Choose your ice cream</p>
+          <p class="modal-dropdown__text">Ice Cream</p>
+          <p class="modal-dropdown__text">Ice Coffee</p>
+          <p class="modal-dropdown__text">Milkshake</p>
+          <svg width="10" height="20">
+            <use href="#"></use>
+          </svg>
+        </div>
+        <ul class="dropdown">
+          <li class="dropdown__item">
+            <p class="dropdown__item__text">Ice Cream</p>
+            <img src="#" alt="Ice-cream" />
+          </li>
+          <li class="dropdown__item">
+            <p class="dropdown__item__text">Ice Coffee</p>
+            <img src="#" alt="Ice-coffee" />
+          </li>
+          <li class="dropdown__item">
+            <p class="dropdown__item__text">Milkshake</p>
+            <img src="#" alt="milkshake" />
+          </li>
+          <li class="dropdown__item">
+            <h4 class="dropdown__item__text">Special order *</h4>
+            <p class="dropdown__item__subtext">
+              This is special order for you. The price is higher, but you will
+              feel much more pleasure
+            </p>
+            <svg><use href="#"></use></svg>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <button type="submit" class="modal__btn">Send my order</button>
+  </form>
+</section>
