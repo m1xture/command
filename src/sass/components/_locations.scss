@@ -1,8 +1,16 @@
 .locations {
   background-image: linear-gradient(to bottom, #fff5f6 50%, #fff);
+  
+
+}
+.locations .container {
+    position: relative;
+    padding-top: 578px;
 }
 .locations__list {
   display: flex;
+  position: absolute;
+  top: -102px;
 }
 .locations__item {
   padding-top: 51px;
@@ -13,6 +21,7 @@
   background-color: $secondary-text-color;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
+  max-width: 330.9px;
   &:last-child {
     margin-right: 0;
   }
@@ -69,23 +78,23 @@
   color: $subtext-color;
 }
 
-.locations__sublist{
+.locations__sublist {
   display: flex;
   justify-content: center;
   margin-top: 86px;
 }
 
-.locations__subitem:last-child{
+.locations__subitem:last-child {
   margin-left: 15px;
 }
 
-.locations__btn{
+.locations__btn {
   @include btn($btn-background: $title-color, $btn-width: 198px);
   height: 44px;
   font-weight: 700;
 }
 
-.locations__btn2{
+.locations__btn2 {
   @include btn($btn-background: $secondary-text-color, $btn-width: 180px);
   height: 44px;
   font-weight: 700;

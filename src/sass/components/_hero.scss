@@ -164,7 +164,6 @@
 
 .hero__arrow {
   position: absolute;
-  background-image: url(../images/her-arrow.svg);
   background-color: transparent;
   border: none;
   display: block;
@@ -178,6 +177,7 @@
     height: 26px;
     width: 26px;
     top: 93px;
+    background-image: url(../images/her-arrow.svg);
   }
 }
 
