@@ -7,26 +7,32 @@
     <div class="tradition-block">
       <div class="tradition-block-img">
         <picture>
-          <!-- <source
-        media="(max-width: 767px)"
-        srcset="
-           1x,
-           2x
-        "
-      />
-      <source
-        media="(min-width: 768px)"
-        srcset="
-          1x,
-          2x
-        "
-      /> -->
-          <source media="(min-width: 1200px)" srcset="
-        images/tradition/cow-pc@1x.png 1x,
-        images/tradition/cow-pc@2x.png 2x
-
-        " />
-          <img src="images/tradition/cow-pc@1x.png" alt="MOOOOOOOOO" class="tradition__cow" />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              images/tradition/cow-mobile@1x.png 1x,
+              images/tradition/cow-mobile@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/tradition/cow-tablet@1x.png 1x,
+              images/tradition/cow-tablet@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              images/tradition/cow-pc@1x.png 1x,
+              images/tradition/cow-pc@2x.png 2x
+            "
+          />
+          <img
+            src="images/tradition/cow-tablet@1x.png"
+            alt="MOOOOOOOOO"
+            class="tradition__cow"
+          />
         </picture>
       </div>
       <div class="tradition-block-text">
@@ -41,7 +47,9 @@
           suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
           tincidunt.
         </p>
-        <p class="tradition__subtext">Aliquam erat volutpat. Aenean accumsan.</p>
+        <p class="tradition__subtext">
+          Aliquam erat volutpat. Aenean accumsan.
+        </p>
         <button class="tradition__btn" type="button">Read more</button>
       </div>
     </div>
@@ -78,58 +86,100 @@
       </li>
     </ul>
     <picture>
-      <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
-      <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
-      <source media="(min-width: 1200px)"
-        srcset="images/gallery/gallery-pc@1x.jpg 1x, images/gallery/gallery-pc@2x.jpg 2x" />
-      <img src="images/gallery/gallery-pc@1x.jpg" alt="icecream" class="gallery" />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          images/gallery/gallery-mobile@1x.jpg 1x,
+          images/gallery/gallery-mobile@2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          images/gallery/gallery-tablet@1x.jpg 1x,
+          images/gallery/gallery-tablet@2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 1200px)"
+        srcset="
+          images/gallery/gallery-pc@1x.jpg 1x,
+          images/gallery/gallery-pc@2x.jpg 2x
+        "
+      />
+      <img
+        src="images/gallery/gallery-tablet@1x.jpg"
+        alt="icecream"
+        class="gallery"
+      />
     </picture>
     <div class="gallery_div">
       <div class="gallery-block-avatar">
         <picture class="gallery__img2">
-          <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
-        <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
-          <source media="(min-width: 1200px)"
-            srcset="images/comment/avatar-pc@1x.jpg 1x, images/comment/avatar-pc@2x.jpg 2x" />
-          <img src="images/comment/avatar-pc@1x.jpg" alt="" class="gallery__img" />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              images/comment/avatar-mobile@1x.jpg 1x,
+              images/comment/avatar-mobile@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/comment/avatar-tablet@1x.jpg 1x,
+              images/comment/avatar-tablet@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              images/comment/avatar-pc@1x.jpg 1x,
+              images/comment/avatar-pc@2x.jpg 2x
+            "
+          />
+          <img
+            src="images/comment/avatar-tablet@1x.jpg"
+            alt=""
+            class="gallery__img"
+          />
         </picture>
       </div>
       <div class="gallery_commetsdiv">
-
         <div class="gallery__background">
           <svg width="54px" height="40px" class="gallery__svg">
-            <use href="./images/sprite.svg#icon-1">
-            </use>
+            <use href="./images/sprite.svg#icon-1"></use>
           </svg>
           <p class="tradition__comment">
-            Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
-            nulla quam nunc,
-            accumsan congue. Lorem ipsum primis in nibh vel risus.
+            Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+            Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
+            ipsum primis in nibh vel risus.
           </p>
         </div>
       </div>
     </div>
-  
-  <ul class="gallery-points">
-    <li class="gallery-points__item"></li>
-    <li class="gallery-points__item"></li>
-    <li class="gallery-points__item"></li>
-  </ul>
-  <p class="gallery-Emily">
-    Emily, Los Angeles
-  </p>
-  <ul class="gallery__list">
-    <li class="gallery__item-svg">
 
-      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" fill="none">
-        <path fill="#D31342"
-          d="M12.24 5.775a.578.578 0 0 0-.049-.834L6.651.16a.698.698 0 0 0-.9.01L.193 5.196a.574.574 0 0 0-.027.833l.14.143c.23.238.604.266.834.063l.415-.367v5.373a.6.6 0 0 0 .605.596h2.166a.6.6 0 0 0 .605-.596V7.482h2.764v3.759c-.005.33.234.596.568.596h2.296a.6.6 0 0 0 .604-.596V5.944l.257.222c.141.122.438.024.662-.22l.158-.17Z" />
-      </svg>
-    </li>
-    <li class="gallery__item">
-    </li>
-    <li class="gallery__item">
-    </li>
-  </ul>
+    <ul class="gallery-points">
+      <li class="gallery-points__item"></li>
+      <li class="gallery-points__item"></li>
+      <li class="gallery-points__item"></li>
+    </ul>
+    <p class="gallery-Emily">Emily, Los Angeles</p>
+    <ul class="gallery__list">
+      <li class="gallery__item-svg">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="13"
+          height="12"
+          fill="none"
+        >
+          <path
+            fill="#D31342"
+            d="M12.24 5.775a.578.578 0 0 0-.049-.834L6.651.16a.698.698 0 0 0-.9.01L.193 5.196a.574.574 0 0 0-.027.833l.14.143c.23.238.604.266.834.063l.415-.367v5.373a.6.6 0 0 0 .605.596h2.166a.6.6 0 0 0 .605-.596V7.482h2.764v3.759c-.005.33.234.596.568.596h2.296a.6.6 0 0 0 .604-.596V5.944l.257.222c.141.122.438.024.662-.22l.158-.17Z"
+          />
+        </svg>
+      </li>
+      <li class="gallery__item"></li>
+      <li class="gallery__item"></li>
+    </ul>
   </div>
 </section>
