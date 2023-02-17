@@ -4,6 +4,7 @@ body {
 button {
   cursor: pointer;
   transition-duration: 250ms;
+  transition-delay: 50ms;
   &:hover {
     transform: scale(1.05);
   }
@@ -29,9 +30,6 @@ button {
     padding-left: 15px;
   }
 }
-p::selection {
-  background-color: #e17992;
-}
-h2::selection {
+*::selection {
   background-color: #e17992;
 }
