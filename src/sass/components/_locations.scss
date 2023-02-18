@@ -11,6 +11,10 @@
 padding-top: 1291px;
   }
 
+  @media screen and (min-width: 768px){
+    padding-top: 547px;
+      }
+
   @media screen and (min-width: 1200px) {
     padding-top: 578px;
   }
@@ -20,16 +24,20 @@ padding-top: 1291px;
   display: flex;
 
   @media screen and (min-width: 320px) {
-    flex-direction: column;
-    flex-wrap: wrap;
+    // flex-direction: column;
+    // flex-wrap: wrap;
     position: absolute;
     top: -84px;
     justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
   }
 
   @media screen and (min-width: 768px) {
     position: absolute;
+ flex-wrap: nowrap;
+ flex-direction: row;
+ flex-flow: row nowrap;
   }
 
   @media screen and (min-width: 1200px) {
@@ -38,13 +46,14 @@ padding-top: 1291px;
 }
 
 .locations__item {
+  padding-left: 43px;
+  max-width: 330.9px;
   padding-top: 51px;
   padding-bottom: 62px;
-
   background-color: $secondary-text-color;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
-  max-width: 330.9px;
+
   @media screen and (min-width: 320px){
     width: 220px;
     height: 427px;
@@ -59,9 +68,9 @@ justify-content: center;
   }
 
   @media screen and (min-width: 1200px){
-    width: 330px;
     height: 572px;
-    padding-left: 43px;
+    width: 330px;
+
   }
 
   &:last-child {
