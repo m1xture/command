@@ -30,10 +30,7 @@ padding-top: 1291px;
 
   @media screen and (min-width: 768px) {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 36px;
+ flex-wrap: wrap;
   }
 
   @media screen and (min-width: 1200px) {
