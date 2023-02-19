@@ -1,9 +1,57 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 300ms cubic-bezier(0.23, 0.5, 0.83, 0.67);
+  z-index: 5;
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 .modal__container {
-    background-color: #fff;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 500px;
-    height: 500px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 40;
+  border-radius: 1%;
+  width: 90vw;
+  padding-top: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-shadow: 0px 0px 20px 9px rgba(255, 184, 202, 0.51);
+  @media screen and (min-width: 480px) {
+    height: 609px;
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    height: 581px;
+  }
+}
+.modal__title {
+  @extend %title;
+  font-size: 24px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal__subtitle {
+  @extend %subtitle;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.modal__input{
+    padding-top: 8px;
+    padding-bottom: 3px;
+    width: 300px;
+    display: block;
+    background-color: transparent;
+    border-radius: 22px;
+    border: 3px solid $title-color;
 }
