@@ -109,12 +109,76 @@
   border-radius: 22px;
   border: 3px solid $title-color;
   margin-top: 15px;
-  color: gray;
-  cursor: text;
+  color: $text-color;
+  cursor: pointer;
+  box-shadow: none;
+  user-select: none;
 }
-.modal-dropdown__text {
-  display: none;
+// .modal__input-dropdown:hover + .dropdown{
+//   display: block;
+// }
+
+.dropdown__text {
+  color: #fff;
 }
 .dropdown {
-  display: none;
+  // display: none;
+  // position: absolute;
+  // z-index: 2;
+  // background-color: #fff;
+}
+.modal__dropdown__text {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: $text-color;
+  padding-left: 7px;
+}
+.dropdown__item {
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  &:first-child {
+    background-color: $background-color;
+  }
+  &:nth-child(2) {
+    background-color: #f0d1a5;
+  }
+  &:nth-child(3) {
+    background-color: #c2e297;
+  }
+  &:last-child {
+    background-color: $title-color;
+  }
+}
+.modal__textarea {
+  box-sizing: border-box;
+  height: 150px;
+  width: 100%;
+  resize: none;
+  border: 3px solid $background-color;
+  border-radius: 17px;
+  margin-top: 15px;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+.modal__btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  @include btn($btn-background: $secondary-text-color);
+  color: $title-color;
+  font-weight: 700;
+  border: 3px solid $title-color;
+  margin-top: 35px;
+  &:hover {
+    color:  $secondary-text-color;
+    background-color: $title-color;
+    border: none;
+  }
 }

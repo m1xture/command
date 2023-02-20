@@ -25,3 +25,17 @@ input {
 textarea {
   outline: none;
 }
+select {
+  outline: none;
+}
+optgroup {
+  margin: 0;
+  padding: 0;
+}
+option {
+  margin: 0;
+  padding: 0;
+  &:focus {
+    background-color: #fff;
+  }
+}
