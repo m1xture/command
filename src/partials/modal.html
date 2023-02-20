@@ -34,43 +34,29 @@
           />
         </li>
         <li class="modal__item">
-          <div class="modal__input-dropdown">
-            <p class="modal__dropdown__placeholder">Choose your ice cream</p>
-            <p class="modal-dropdown__text">Ice Cream</p>
-            <p class="modal-dropdown__text">Ice Coffee</p>
-            <p class="modal-dropdown__text">Milkshake</p>
-            <svg width="10" height="20">
-              <use href="#"></use>
-            </svg>
-          </div>
-          <ul class="dropdown">
-            <li class="dropdown__item">
-              <p class="dropdown__item__text">Ice Cream</p>
-              <img src="#" alt="Ice-cream" />
-            </li>
-            <li class="dropdown__item">
-              <p class="dropdown__item__text">Ice Coffee</p>
-              <img src="#" alt="Ice-coffee" />
-            </li>
-            <li class="dropdown__item">
-              <p class="dropdown__item__text">Milkshake</p>
-              <img src="#" alt="milkshake" />
-            </li>
-            <li class="dropdown__item">
-              <h4 class="dropdown__item__text">Special order *</h4>
-              <p class="dropdown__item__subtext">
-                This is special order for you. The price is higher, but you will
-                feel much more pleasure
-              </p>
-              <svg><use href="#"></use></svg>
+          <select
+            name="user_profile_color_1"
+            class="modal__input-dropdown"
+            required="required"
+          >
+          <optgroup class="dropdown__item">
+            <option value="1">Ice Cream</option>
+          </optgroup>
+            <optgroup class="dropdown__item">
+            <option value="2">Ice Coffee</option>
+          </optgroup>
+           <optgroup class="dropdown__item">
+            <option value="3">Milkshake</option>
+          </optgroup>
+           <optgroup class="dropdown__item">
+            <option value="4" class="dropdown__text">Special order *</option>
+          </optgroup>
+          </select>
             </li>
           </ul>
         </li>
       </ul>
-      <p class="modal__text-price">To pay:</p>
-      <p class="modal__price ice-cream">2$</p>
-      <p class="modal__price ice-coffee">4$</p>
-      <p class="modal__price milkshake">6$</p>
+      <textarea class="modal__textarea" placeholder="Write here your special wishes" maxlength="300"></textarea>
       <button type="submit" class="modal__btn">Send my order</button>
     </form>
   </div>
