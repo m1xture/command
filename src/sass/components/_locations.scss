@@ -46,7 +46,7 @@ padding-top: 1291px;
 }
 
 .locations__item {
-  padding-left: 43px;
+
   max-width: 330.9px;
   padding-top: 51px;
   padding-bottom: 62px;
@@ -65,12 +65,13 @@ justify-content: center;
     width: 220px;
     height: 544px;
     margin-right: 30px;
+
   }
 
   @media screen and (min-width: 1200px){
     height: 572px;
     width: 330px;
-
+    padding-left: 43px;
   }
 
   &:last-child {
