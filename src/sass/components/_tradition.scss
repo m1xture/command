@@ -10,19 +10,37 @@
 }
 
 .tradition {
-  background-color: #fff5f6;
-  background-image: url(../images/tradition/milk-pc@1x.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: 342px;
-  padding-top: 125px;
-  background-image: linear-gradient(
-    to top,
-    #fff 1299px,
-    #fff5f6 1299px,
-    #fff5f6
-  );
-  padding-bottom: 197px;
+  @media screen and (min-width: 320px) {
+    background-color: #fff5f6;
+    background-image: url(../images/tradition/milk-pc@1x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 342px;
+    padding-top: 125px;
+    background-image: linear-gradient(
+      to top,
+      #fff 1351px,
+      #fff5f6 1351px,
+      #fff5f6
+    );
+    padding-bottom: 197px;
+  }
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+      to top,
+      #fff 1211px,
+      #fff5f6 1211px,
+      #fff5f6
+    );
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+      to top,
+      #fff 1244px,
+      #fff5f6 1244px,
+      #fff5f6
+    );
+  }
 }
 
 .text-underline {
@@ -319,6 +337,35 @@
   fill: #e1e1e1;
 }
 
+.tradition__comment {
+  @media screen and (min-width: 320px) {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    font-family: 'DM Sans';
+    max-width: 100%;
+    text-decoration: underline;
+    text-decoration-color: #e1e1e1;
+    text-underline-position: under;
+    text-decoration-line: underline;
+  }
+  @media screen and (min-width: 768px) {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
 .gallery_commetsdiv {
   position: relative;
 }
@@ -357,35 +404,6 @@
   @media screen and (min-width: 1200px) {
     margin-bottom: 15px;
     margin-top: 123px;
-  }
-}
-
-.tradition__comment {
-  @media screen and (min-width: 320px) {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 31px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #000000;
-    font-family: 'DM Sans';
-    max-width: 100%;
-    text-decoration: underline;
-    text-decoration-color: #e1e1e1;
-    text-underline-position: under;
-    text-decoration-line: underline;
-  }
-  @media screen and (min-width: 768px) {
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 14px;
-    line-height: 30px;
-  }
-  @media screen and (min-width: 1200px) {
-    padding-right: 5px;
-    padding-left: 5px;
-    font-size: 16px;
-    line-height: 30px;
   }
 }
 
