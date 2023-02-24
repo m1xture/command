@@ -1,5 +1,10 @@
 footer {
-  padding-top: 165px;
+  @media screen and (min-width: 320px) {
+    padding-top: 113px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 165px;
+  }
 }
 .container .footer__container {
   @media screen and (min-width: 320px) {
@@ -11,7 +16,7 @@ footer {
     justify-content: space-between;
   }
   @media screen and (min-width: 1200px) {
-    padding-bottom: 97px;
+    // padding-bottom: 97px;
   }
 }
 
@@ -74,7 +79,6 @@ footer {
     margin-bottom: 43px;
   }
   @media screen and (min-width: 768px) {
-    
   }
   @media screen and (min-width: 1200px) {
     font-size: 16px;
@@ -154,4 +158,11 @@ footer {
   justify-content: center;
   align-items: center;
   fill: #fff;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-delay: 50ms;
+  transition-timing-function: cubic-bezier(.63,.34,.83,.67);
+  &:hover {
+    background-color: $title-color;
+  }
 }

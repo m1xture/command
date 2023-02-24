@@ -235,15 +235,24 @@
     color: $title-color;
     margin-top: 17px;
     margin-bottom: 39px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    height: 44px;
   }
   @media screen and (min-width: 768px) {
     margin-top: 62px;
     margin-bottom: 66px;
+    font-size: 16px;
+    line-height: 21px;
   }
   @media screen and (min-width: 1200px) {
     margin-top: 45px;
     margin-bottom: 146px;
   }
+  // &:hover {
+  //   border: 2px solid $title-color;
+  // }
 }
 
 .tradition__item {
