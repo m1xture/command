@@ -477,4 +477,11 @@
   height: 12px;
   border-radius: 50%;
   background-color: #d9d9d9;
+  transition-property: background-color;
+  transition-duration: 350ms;
+  transition-delay: 50ms;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  &:hover {
+    background-color: $title-color;
+  }
 }
