@@ -1,6 +1,8 @@
 .locations {
-  background-image: linear-gradient(to bottom, #fff5f6 50%, #fff),
-    url(../images/locations-bg.png);
+  background-image: linear-gradient(to bottom, #fff5f6 50%, #fff);
+  background-image: url(../images/locations-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .locations .container {
@@ -27,12 +29,15 @@
     // flex-wrap: wrap;
     position: absolute;
     top: -84px;
-    justify-content: center;
-    align-items: center;
+    left: 50px;
+    right: auto;
+    // justify-content: center;
+    // align-items: center;
     flex-flow: column wrap;
   }
 
   @media screen and (min-width: 768px) {
+    left: auto;
     position: absolute;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -116,11 +121,13 @@
     width: 130px;
     margin-bottom: 25px;
   }
+
   @media screen and (min-width: 768px) {
     width: 138px;
     height: 28px;
     margin-bottom: 30px;
   }
+
   @media screen and (min-width: 1200px) {
     margin-bottom: 32px;
   }
@@ -325,9 +332,11 @@
 
 .locations__sublist {
   justify-content: center;
+
   @media screen and (min-width: 320px) {
     margin-top: 54px;
   }
+
   @media screen and (min-width: 768px) {
     display: flex;
     margin-top: 0;
@@ -344,7 +353,8 @@
   font-weight: 700;
 
   @media screen and (min-width: 320px) {
-    margin-left: 79px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: 16px;
@@ -399,9 +409,11 @@
   height: 44px;
   font-weight: 700;
   color: $title-color;
+
   @media screen and (min-width: 320px) {
     margin-top: 10px;
-    margin-left: 79px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: 16px;
@@ -417,6 +429,7 @@
   }
 
   @media screen and (min-width: 768px) {
+    margin-left: 15px;
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: 16px;
@@ -433,6 +446,7 @@
   }
 
   @media screen and (min-width: 1200px) {
+    margin-left: 15px;
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: 16px;
