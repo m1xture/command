@@ -1,6 +1,6 @@
 <section class="hero">
   <div class="container">
-    <div class="hero__title-btn">
+    <div class="hero__title-btn slideRight">
       <h1 class="hero__title">
         ice cream made with <span class="passion">passion</span>
       </h1>
@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="hero__numbers">
-      <ul class="hero__list">
+      <ul class="hero__list slideLeft">
         <li class="hero__item">
           <p class="hero__subtext"><span class="hero__number">16</span>cafes</p>
           <div class="circle1"></div>
@@ -19,15 +19,13 @@
           <p class="hero__subtext">
             <span class="hero__number">23</span>food trucks
           </p>
-          <div class="circle2"></div>
+          <div class="circle1"></div>
         </li>
       </ul>
     </div>
-    <div class="hero__milk-text">
-      <div>
+    <div class="hero__milk-text slideRight">
+      <div class="hero__milk-block">
         <picture>
-          <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
-      <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
           <source
             media="(min-width: 1200px)"
             srcset="
@@ -35,15 +33,23 @@
               images/hero/hero-milk-pc@2x.png 2x
             "
           />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/hero/hero-milk-tablet@1x.png 1x,
+              images/hero/hero-milk-tablet@2x.png 2x
+            "
+          />
+
           <img
-            src="images/hero/hero-milk-pc@1x.png"
+            src="images/hero/hero-milk-tablet@1x.png"
             alt="hero-milk"
             class="hero__milk"
           />
         </picture>
       </div>
-      <div class="hero-block-arrow">
-        <p class="hero__text">
+      <div class="hero-block-arrow" data-aos="fade-right">
+        <p class="hero__text hvr-grow">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et
         </p>
@@ -54,9 +60,7 @@
         </button>
       </div>
     </div>
-    <picture>
-      <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
-      <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
+    <picture class="">
       <source
         media="(min-width: 1200px)"
         srcset="
@@ -64,21 +68,46 @@
           images/hero/hero-icecream-pc@2x.png 2x
         "
       />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          images/hero/hero-icecream-mobile@1x.png 1x,
+          images/hero/hero-icecream-mobile@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          images/hero/hero-icecream-tablet@1x.png 1x,
+          images/hero/hero-icecream-tablet@2x.png 2x
+        "
+      />
+
       <img
-        src="images/hero/hero-icecream-pc@1x.png"
+        src="images/hero/hero-icecream-tablet@1x.png"
         alt="hero-icecream"
-        class="hero-icecream"
+        class="hero-icecream slideUp"
       />
     </picture>
-    <div class="circle"></div>
+    <div class="circle slideUp"></div>
     <picture>
-      <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
-      <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
       <source
         media="(min-width: 1200px)"
         srcset="images/hero/woman-pc@1x.png 1x, images/hero/woman-pc@2x.png 2x"
       />
-      <img src="images/hero/woman-pc@1x.png" alt="woman" class="hero__woman" />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          images/hero/woman-tablet@1x.png 1x,
+          images/hero/woman-tablet@2x.png 2x
+        "
+      />
+
+      <img
+        src="images/hero/woman-tablet@1x.png"
+        alt="woman"
+        class="hero__woman slideUp"
+      />
     </picture>
   </div>
 </section>

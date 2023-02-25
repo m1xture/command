@@ -1,30 +1,39 @@
+html {
+   scroll-behavior: smooth;
+}
 body {
   font-family: 'DM Sans';
+  
 }
 button {
   cursor: pointer;
   transition-duration: 250ms;
+  transition-delay: 50ms;
   &:hover {
-     transform: scale(1.05);
+    transform: scale(1.05);
   }
 }
 .container {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  outline: solid red;
+  @media screen and (min-width: 320px) {
+    width: 320px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-right: 34px;
+    padding-left: 34px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1080px;
     padding-right: 15px;
     padding-left: 15px;
-    outline: solid red;
-    @media screen and (min-width: 320px) {
-        width: 320px;
-    }
-    @media screen and (min-width: 768px){
-        width: 768px;
-    }
-    @media screen and (min-width: 1200px){
-        width: 1080px;
-    }
+  }
 }
-p::selection {
-    background-color: #E17992;
+*::selection {
+  background-color: #e17992;
 }

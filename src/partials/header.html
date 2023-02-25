@@ -1,30 +1,73 @@
 <header>
   <div class="container">
     <picture>
-      <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
-      <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
-      <source media="(min-width: 1200px)" srcset="images/header/logo-pc@1x.png 1x, images/header/logo-pc@2x.png 2x" />
-      <img src="images/header/logo-pc@1x.png" alt="logo" class="header__logo" />
+      <source
+        media="(min-width: 1200px)"
+        srcset="
+          images/header/logo-pc@1x.png 1x,
+          images/header/logo-pc@2x.png 2x
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          images/header/logo-mobile@1x.png 1x,
+          images/header/logo-mobile@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          images/header/logo-tablet@1x.png 1x,
+          images/header/logo-tablet@2x.png 2x
+        "
+      />
+
+      <img
+        src="images/header/logo-tablet@1x.png"
+        alt="logo"
+        class="header__logo slideDown"
+      />
     </picture>
-    <nav class="header__navigation">
+    <nav class="header__navigation slideDown">
       <ul class="header__list">
         <li class="header__item">
-          <a class="header__link" href="#">Home</a>
+          <a class="header__link home" href="#">Home</a>
         </li>
         <li class="header__item">
-          <a class="header__link" href="#">About us</a>
+          <a class="header__link" href="#we">About us</a>
         </li>
         <li class="header__item">
-          <a class="header__link" href="#">How it’s made?</a>
+          <a class="header__link" href="#tradition">How it’s made?</a>
         </li>
         <li class="header__item">
-          <a class="header__link" href="#">Our products</a>
+          <a class="header__link" href="#products">Our products</a>
         </li>
         <li class="header__item">
-          <a class="header__link" href="#">Contact</a>
+          <a class="header__link" href="#locations">Contact</a>
         </li>
       </ul>
-    <button class="header__btn" type="button">Buy now ></button>
-  </nav>
+      <button class="header__btn hvr-forward" type="button" data-open-modal>
+        Buy now >
+      </button>
+    </nav>
+    <div class="header-block">
+      <button type="button" class="header__burger slideDown" data-mobile-open>
+        <svg
+          width="20"
+          height="14"
+          viewBox="0 0 20 14"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M0 1H20" stroke="#D41443" />
+          <path d="M0 7H20" stroke="#D41443" />
+          <path d="M0 13H20" stroke="#D41443" />
+        </svg>
+      </button>
+      <button class="header__btn-tablet slideLeft" type="button" data-open-modal>
+        Buy now >
+      </button>
+    </div>
   </div>
 </header>

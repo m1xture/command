@@ -1,67 +1,201 @@
-<section class="tradition">
+<section class="tradition" id="tradition">
   <div class="container">
-    <div class="tradition-block-title">
-      <p class="tradition__subtitle">tradition and love</p>
-      <h2 class="tradition__title">how it’s made?</h2>
+    <div class="tradition-block-title" data-aos="fade-down">
+      <p class="products__100 cow__subtitle">tradition and love</p>
+      <h2 class="products__title cow__title">how it’s made?</h2>
     </div>
-    <img src="#" alt="Moooo" />
-    <div class="tradition-block-text">
-      <p class="tradition__text">
-        Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
-        cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at
-        justo fringilla.
-      </p>
-      <p class="tradition__subtext">
-        Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
-        Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl
-        suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
-        tincidunt.
-      </p>
-      <p class="tradition__subtext">Aliquam erat volutpat. Aenean accumsan.</p>
-      <button class="tradition__btn" type="button">Read more</button>
+    <div class="tradition-block">
+      <div class="tradition-block-img">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              images/tradition/cow-pc@1x.png 1x,
+              images/tradition/cow-pc@2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              images/tradition/cow-mobile@1x.png 1x,
+              images/tradition/cow-mobile@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/tradition/cow-tablet@1x.png 1x,
+              images/tradition/cow-tablet@2x.png 2x
+            "
+          />
+          <img
+            src="images/tradition/cow-tablet@1x.png"
+            alt="MOOOOOOOOO"
+            class="tradition__cow"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          />
+        </picture>
+      </div>
+      <div
+        class="tradition-block-text"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <p class="tradition__text">
+          Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
+          cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at
+          justo fringilla.
+        </p>
+        <p class="tradition__subtext">
+          Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
+          Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl
+          suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
+          tincidunt.
+        </p>
+        <p class="tradition__subtext">
+          Aliquam erat volutpat. Aenean accumsan.
+        </p>
+        <button class="tradition__btn hvr-underline-from-left" type="button">Read more ></button>
+      </div>
     </div>
-    <ul class="tradition__list">
+    <ul class="tradition__list" data-aos="zoom-in-up">
       <li class="tradition__item">
+        <!-- <svg width="33px" height="50px" class="tradition__svg">
+          <use href="./images/milk.svg">
+          </use>
+        </svg>-->
         <h3 class="tradition__title">721</h3>
-        <p class="tradition__text">
+        <p class="tradition__text1">
           Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
         </p>
       </li>
       <li class="tradition__item">
+        <!-- <svg width="50px" height="50px" class="tradition__svg">
+          <use href="images/apple.svg">
+          </use>
+        </svg> -->
         <h3 class="tradition__title">16kg</h3>
-        <p class="tradition__text">
+        <p class="tradition__text1">
           Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
         </p>
       </li>
       <li class="tradition__item">
+        <!-- <svg width="44px" height="50px" class="tradition__svg">
+          <use href="images/ice-cream.svg">
+          </use>
+        </svg> -->
         <h3 class="tradition__title">84</h3>
-        <p class="tradition__text">
+        <p class="tradition__text1">
           Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
         </p>
       </li>
     </ul>
     <picture>
-      <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
-      <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
-      <source media="(min-width: 1200px)" srcset="images/gallery/gallery-pc@1x.jpg 1x, images/gallery/gallery-pc@2x.jpg 2x" />
-      <img src="images/gallery/gallery-pc@1x.jpg" alt="icecream" class="gallery__img" />
+      <source
+        media="(min-width: 1200px)"
+        srcset="
+          images/gallery/gallery-pc@1x.jpg 1x,
+          images/gallery/gallery-pc@2x.jpg 2x
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          images/gallery/gallery-mobile@1x.jpg 1x,
+          images/gallery/gallery-mobile@2x.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          images/gallery/gallery-tablet@1x.jpg 1x,
+          images/gallery/gallery-tablet@2x.jpg 2x
+        "
+      />
+      <img
+        src="images/gallery/gallery-tablet@1x.jpg"
+        alt="icecream"
+        class="gallery"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="200"
+        data-aos-offset="0"
+      />
     </picture>
     <div class="gallery_div">
-      <picture>
-        <!-- <source media="(max-width: 767px)" srcset="1x, 2x" />
-        <source media="(min-width: 768px)" srcset="1x, 2x" /> -->
-        <source media="(min-width: 1200px)" srcset="images/comment/avatar-pc@1x.jpg 1x, images/comment/avatar-pc@2x.jpg 2x" />
-        <img src="images/comment/avatar-pc@1x.jpg" alt="" class="gallery__img" />
-      </picture>
-    <div class="gallery_commetsdiv">
-    <svg width="54px" height="40px" class="gallery_svg">
-      <use href="#">
-      </use>
-    </svg>
-    <p>
-      Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
-    </p>
-  </div>
-  </div>
+      <div class="gallery-block-avatar">
+        <picture class="gallery__img2">
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              images/comment/avatar-mobile@1x.jpg 1x,
+              images/comment/avatar-mobile@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/comment/avatar-tablet@1x.jpg 1x,
+              images/comment/avatar-tablet@2x.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              images/comment/avatar-pc@1x.jpg 1x,
+              images/comment/avatar-pc@2x.jpg 2x
+            "
+          />
+          <img
+            src="images/comment/avatar-tablet@1x.jpg"
+            alt=""
+            class="gallery__img hvr-grow hvr-float"
+          />
+        </picture>
+      </div>
+      <div
+        class="gallery_commetsdiv"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <div class="gallery__background">
+          <svg width="54px" height="40px" class="gallery__svg">
+            <use href="./images/sprite.svg#icon-1"></use>
+          </svg>
+          <p class="tradition__comment">
+            Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+            Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
+            ipsum primis in nibh vel risus.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <ul class="gallery-points">
+      <li class="gallery-points__item"></li>
+      <li class="gallery-points__item"></li>
+      <li class="gallery-points__item"></li>
+    </ul>
+    <p class="gallery-Emily">Emily, Los Angeles</p>
+    <ul class="gallery__list">
+      <li class="gallery__item-svg hvr-grow">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="13"
+          height="12"
+          fill="none"
+        >
+          <path
+            fill="#D31342"
+            d="M12.24 5.775a.578.578 0 0 0-.049-.834L6.651.16a.698.698 0 0 0-.9.01L.193 5.196a.574.574 0 0 0-.027.833l.14.143c.23.238.604.266.834.063l.415-.367v5.373a.6.6 0 0 0 .605.596h2.166a.6.6 0 0 0 .605-.596V7.482h2.764v3.759c-.005.33.234.596.568.596h2.296a.6.6 0 0 0 .604-.596V5.944l.257.222c.141.122.438.024.662-.22l.158-.17Z"
+          />
+        </svg>
+      </li>
+      <li class="gallery__item hvr-grow"></li>
+      <li class="gallery__item hvr-grow"></li>
+    </ul>
   </div>
 </section>
