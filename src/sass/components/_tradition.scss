@@ -11,22 +11,17 @@
 
 .tradition {
   @media screen and (min-width: 320px) {
-    background-color: #fff5f6;
-    background-image: url(../images/tradition/milk-pc@1x.png);
+    // background-color: #fff;
+    // background-image: url(../images/tradition/milk-pc@1x.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 342px;
     padding-top: 125px;
-    background-image: linear-gradient(
-      to top,
-      #fff 1351px,
-      #fff5f6 1351px,
-      #fff5f6
-    );
+   
     padding-bottom: 197px;
   }
   @media screen and (min-width: 768px) {
-    background-image: linear-gradient(
+    background-image: url(../images/tradition/milk-pc@1x.png), linear-gradient(
       to top,
       #fff 1211px,
       #fff5f6 1211px,
@@ -34,12 +29,14 @@
     );
   }
   @media screen and (min-width: 1200px) {
-    background-image: linear-gradient(
-      to top,
-      #fff 1244px,
-      #fff5f6 1244px,
-      #fff5f6
-    );
+    // background-image: url(../images/tradition/milk-pc@1x.png), linear-gradient(
+    //   to top,
+    //   #fff 1244px,
+    //   #fff5f6 1244px,
+    //   #fff5f6
+    // );
+     background-image: url(../images/tradition/milk-pc@1x.png),
+      linear-gradient(to top, #fff 1351px, #fff5f6 1351px, #fff5f6);
   }
 }
 
@@ -231,20 +228,26 @@
 
 .tradition__btn {
   @media screen and (min-width: 320px) {
-    @include btn($btn-background: $secondary-text-color, $btn-width: 176px);
+    // @include btn($btn-background: $secondary-text-color, $btn-width: 176px);
     color: $title-color;
     margin-top: 17px;
     margin-bottom: 39px;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
+    background: $secondary-text-color;
+    border-radius: 22px;
     height: 44px;
+    width: 176px;
+    border: none;
+    outline: none;
   }
   @media screen and (min-width: 768px) {
     margin-top: 62px;
     margin-bottom: 66px;
     font-size: 16px;
     line-height: 21px;
+    height: 44px;
   }
   @media screen and (min-width: 1200px) {
     margin-top: 45px;
