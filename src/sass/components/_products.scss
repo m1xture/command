@@ -1,18 +1,11 @@
 .products {
   padding-top: 127px;
   padding-bottom: 119px;
-<<<<<<< Updated upstream
-
-=======
-  @media screen and (max-width: 767px) {
-    padding-bottom: 98px;
-  }
->>>>>>> Stashed changes
 }
 
 .products__title {
   @extend %title;
- 
+
   @media screen and (min-width: 768px) {
     font-size: 48px;
     line-height: 55px;
@@ -26,7 +19,7 @@
 
 .products__100 {
   @extend %subtitle;
-   
+
   @media screen and (min-width: 768px) {
     font-size: 26px;
     line-height: 30px;
@@ -37,7 +30,7 @@
     line-height: 34px;
     letter-spacing: 0.04em;
   }
-  
+
 }
 
 .products__list {
@@ -48,25 +41,6 @@
   align-items: center;
   justify-content: center;
 
-<<<<<<< Updated upstream
-=======
-  @media screen and (min-width: 768px) {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 144px;
-    margin-top: 150px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    margin-top: 259px;
-    gap: 24px;
-    align-items: center;
-    justify-content: center;
-  }
->>>>>>> Stashed changes
 }
 
 .products__item {
@@ -87,20 +61,7 @@
   padding-bottom: 50px;
   padding-left: 44px;
   position: relative;
-<<<<<<< Updated upstream
 
-=======
-  @media screen and (min-width: 768px) {
-    padding-top: 120px;
-    width: 220px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 329px;
-    padding-bottom: 50px;
-    padding-top: 130px;
-  }
->>>>>>> Stashed changes
   &:first-child {
     background-color: $background-color;
   }
@@ -113,6 +74,7 @@
     margin-right: 0;
     background-color: #c2e297;
   }
+
   @media screen and (min-width: 768px) {
     top: -20%;
   }
@@ -121,76 +83,8 @@
     top: -38%;
   }
 }
-<<<<<<< Updated upstream
 
 
-=======
-.products__subtitle {
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 1.13;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: $secondary-text-color;
-  font-family: 'Titan One';
-  margin-top: 38px;
-  &::after {
-    content: '...';
-    display: block;
-    margin-top: 32px;
-  }
-  @media screen and (min-width: 768px) {
-    font-family: 'Titan One';
-    margin-top: 30px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 30px;
-    line-height: 34px;
-    margin-top: 38px;
-    margin-bottom: 32px;
-  }
-}
-.products__text {
-  @include special-text($align: center);
-  margin-top: 32px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 176%;
-  font-size: 14px;
-  line-height: 152%;
-  text-align: center;
-  letter-spacing: 0.04em;
-
-  max-width: 241px;
-  color: #ffffff;
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 32px;
-  margin-bottom: 62px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-
-  @media screen and (min-width: 768px) {
-    line-height: 176%;
-    max-width: 198px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 16px;
-    max-width: 241px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 32px;
-    margin-bottom: 62px;
-  }
-}
->>>>>>> Stashed changes
 .products__icecream {
   position: absolute;
   top: -200px;
