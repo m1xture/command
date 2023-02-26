@@ -9,16 +9,18 @@
   }
 }
 
+
 .tradition {
   @media screen and (min-width: 320px) {
     // background-color: #fff;
     // background-image: url(../images/tradition/milk-pc@1x.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: 342px;
     padding-top: 125px;
-   
     padding-bottom: 197px;
+    background-image: url(../images/tradition/milk-pc@1x.png),
+    linear-gradient(to top, #fff5f6 1009.89px,#fff 1009.89px ,#fff5f6);
+    background-position-y: 766px;
   }
   @media screen and (min-width: 768px) {
     background-image: url(../images/tradition/milk-pc@1x.png), linear-gradient(
@@ -35,8 +37,16 @@
     //   #fff5f6 1244px,
     //   #fff5f6
     // );
-     background-image: url(../images/tradition/milk-pc@1x.png),
-      linear-gradient(to top, #fff 1351px, #fff5f6 1351px, #fff5f6);
+    //     background-position-y:  102px;
+    //  background-image: url(../images/tradition/milk-pc@1x.png),
+      
+      background-color: #FFF5F6;
+      background-image: url(../images/tradition/milk-pc@1x.png),
+      linear-gradient(to top, #fff 53.44%, #fff5f6 53.44%);;
+      background-repeat: no-repeat;
+      background-size: 100%;
+       background-position-y: 342px;
+       padding-top: 125px;
   }
 }
 
