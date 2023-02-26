@@ -1,6 +1,6 @@
 .mobile-modal {
   background: #E17992;
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 0px;
   width: 254px;
@@ -17,6 +17,9 @@
 .is-close{
   opacity: 0;
   pointer-events: none;
+}
+.svg-close {
+  padding-right: 34px;
 }
 .mobile-btn {
   color: $title-color;
