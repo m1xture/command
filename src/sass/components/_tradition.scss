@@ -18,9 +18,15 @@
     background-size: 100%;
     padding-top: 125px;
     padding-bottom: 197px;
-    background-image: url(../images/tradition/milk-pc@1x.png),
-    linear-gradient(to top, #fff5f6 1009.89px,#fff 1009.89px ,#fff5f6);
-    background-position-y: 766px;
+     background-color: #FFF5F6;
+      background-image: url(../images/tradition/milk-pc@1x.png),
+      linear-gradient(to top, #fff 65.3%, #fff5f6 34.7%);
+      background-size: 100%;
+       background-position-y: 680px;
+    // background-image: url(../images/tradition/milk-pc@1x.png),
+    // linear-gradient(to top, #fff5f6 1640px,#fff 1640px);
+    // background-position-y: 766px;
+
   }
   @media screen and (min-width: 768px) {
     background-image: url(../images/tradition/milk-pc@1x.png), linear-gradient(
@@ -206,6 +212,7 @@
     font-size: 14px;
     line-height: 25px;
     margin-bottom: 28px;
+    width: auto;
   }
   @media screen and (min-width: 1200px) {
     font-size: 16px;
