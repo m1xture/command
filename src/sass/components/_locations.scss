@@ -308,7 +308,13 @@ width: 80%;
   @extend %main-text;
   line-height: 1.81;
   color: $subtext-color;
-
+  transition-property: color;
+  transition-duration: 370ms;
+  transition-delay: 75ms;
+  transition-timing-function: cubic-bezier(.32,.52,.83,.67);
+  &:hover {
+    color: $subtitle-color;
+  }
   @media screen and (min-width: 320px) {
     font-family: 'DM Sans';
     font-weight: 500;
