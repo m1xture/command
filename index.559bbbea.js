@@ -1,0 +1,2 @@
+var refs={openModalBtn:document.querySelector("[data-open-modal-mob]"),closeModalBtn:document.querySelector("[data-close-modal-mob]"),backdrop:document.querySelector("[data-backdrop-mob]")};function toggleModal(){refs.backdrop.classList.toggle("is-hidden")}function logBackdropClick(){console.log("Це клік в бекдроп")}refs.openModalBtn.addEventListener("click",toggleModal),refs.closeModalBtn.addEventListener("click",toggleModal),refs.backdrop.addEventListener("click",logBackdropClick);
+//# sourceMappingURL=index.559bbbea.js.map
