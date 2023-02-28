@@ -10,7 +10,7 @@ refs.closeModalBtn.addEventListener('click', toggleModal);
 refs.backdrop.addEventListener('click', logBackdropClick);
 
 function toggleModal() {
-  refs.backdrop.classList.toggle('is-hidden');
+  refs.backdrop.classList.toggle('is-hidden-tab');
 }
 
 function logBackdropClick() {

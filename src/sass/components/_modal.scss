@@ -208,3 +208,10 @@
     margin-top: 30px;
   }
 }
+.modal-scale {
+  transition-duration: 300ms;
+  transition-delay: 50ms;
+  &:hover {
+    transform: scale(1.05);
+  } 
+}
