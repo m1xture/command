@@ -30,11 +30,10 @@
     width: 90vw;
     padding-top: 45px;
   }
-  @media screen and (min-width: 395px){
+  @media screen and (min-width: 395px) {
     padding-top: 35px;
-    
   }
-  @media screen and (min-width: 480px){
+  @media screen and (min-width: 480px) {
     width: 450px;
   }
   @media screen and (min-width: 1200px) {
@@ -175,17 +174,37 @@
   padding-left: 8px;
 }
 .modal__btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   @include btn($btn-background: $secondary-text-color);
-  color: $title-color;
-  font-weight: 700;
-  border: 3px solid $title-color;
-  margin-top: 35px;
   &:hover {
-    color:  $secondary-text-color;
+    color: $secondary-text-color;
     background-color: $title-color;
     border: none;
+  }
+  @media screen and (min-width: 320px) {
+    color: $title-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    background: $secondary-text-color;
+    border-radius: 22px;
+    height: 44px;
+    width: 176px;
+    border: 3px solid $title-color;
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 21px;
+    height: 44px;
+    border: 3px solid $title-color;
+    margin-top: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    border: 3px solid $title-color;
+    margin-top: 30px;
   }
 }
